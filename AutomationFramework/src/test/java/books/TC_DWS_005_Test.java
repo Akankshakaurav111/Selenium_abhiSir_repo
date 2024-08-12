@@ -24,6 +24,7 @@ public void clickOnBooks () throws EncryptedDocumentException, IOException
 	String ExpectedTitle=excelLib.getStringDataFromExcel("Books", 1, 0);
 	Assert.assertEquals(actualTitle,ExpectedTitle,"Books page is not displayed");
 	Reporter.log("Books page is display ",true);
+	Reporter.log("Books page is display ",true);
 	
 }
 }
